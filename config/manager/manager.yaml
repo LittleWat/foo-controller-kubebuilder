@@ -39,7 +39,8 @@ spec:
         args:
         - --leader-elect
         # image: controller:latest
-        image: foo-controller-kubebuilder:latest
+        # image: foo-controller-kubebuilder:latest
+        image: foo-controller-kubebuilder:conversion
         imagePullPolicy: IfNotPresent
         name: manager
         securityContext:

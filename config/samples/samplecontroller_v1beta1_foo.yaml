@@ -1,0 +1,9 @@
+apiVersion: samplecontroller.littlewat.github.io/v1beta1
+kind: Foo
+metadata:
+  name: foo-sample
+spec:
+  # TODO(user): Add fields here
+   deploymentName: fuga
+  #  foo: hogehoge
+   replicas: 3
