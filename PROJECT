@@ -1,0 +1,6 @@
+domain: littlewat.github.io
+layout:
+- go.kubebuilder.io/v3
+projectName: foo-controller-kubebuilder
+repo: github.com/LittleWat/foo-controller-kubebuilder.git
+version: "3"
