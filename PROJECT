@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: foo-controller-kubebuilder
 repo: github.com/LittleWat/foo-controller-kubebuilder.git
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: littlewat.github.io
+  group: samplecontroller
+  kind: Foo
+  path: github.com/LittleWat/foo-controller-kubebuilder.git/api/v1alpha1
+  version: v1alpha1
 version: "3"
