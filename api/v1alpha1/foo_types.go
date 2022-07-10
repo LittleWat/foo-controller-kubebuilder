@@ -31,8 +31,7 @@ type FooSpec struct {
 	//the name of deployment which is owned by foo
 	DeploymentName string `json:"deploymentName"`
 
-	//+kubebuilder:validation:Required
-	//+kubebuilder:validation:Minimum=0
+	//+kubebuilder:validation:Optional
 
 	//thereplicasofdeploymentwhichisownedbyfoo
 	Replicas *int32 `json:"replicas"`
